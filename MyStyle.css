@@ -1,0 +1,65 @@
+@charset "UTF-8";
+/* CSS Document */
+
+a:link {
+  color: #166182;
+	background-color: #166182;
+		padding: 10px 15px;
+	margin: 5px 15px;
+	border-radius: 5px;
+	text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: #B5D5D2;
+}
+
+/* mouse over link */
+a:hover {
+  color: #166182;
+}
+
+/* selected link */
+a:active {
+  color: #4CB4AB;
+}
+body {
+	background-color: #B5D5D2; 
+	color: #4CB4AB; 
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+.header {
+	text-decoration-color: #4CB4AB; 
+	color:#4CB4AB
+}
+.navdiv{
+	Background-color: #166182; 
+	color:#4CB4AB; 
+	font-size: 50px; 
+	text-align:center; 
+	min-height: 100px;
+	line-height: 100px;
+}
+#content {
+	padding: 5px;
+}
+#footer {
+background-color: #166182; 
+	color: #4CB4AB; 
+	text-align:center; 
+	padding: 15px;
+}
+.thirdcolumn {
+	width: 29%;
+	padding: 15px;
+	float: left;
+	margin: 10px;
+	background-color: #3885A7;
+	color: #B5D5D2;
+	box-shadow: 0px 0px 5px 0px #444;
+}
+.thirdcolumn:hover {
+	transform: translateY(-5px) scale(1.03);
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
